@@ -1,15 +1,37 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+  <style>
+    .jumbotron{
+      position: relative;
+      background-image: url("https://www.wallpaperflare.com/static/369/432/1022/line-blue-faded-background-wallpaper-preview.jpg");
+      background-size: cover;
+    }
+    
+    .icons{
+      width: 800px;
+      height: 900px;
+     
+    }
+    
+    .tria_left {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+    }
+    
+    .tria_right_top {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+    }
+    
+    .tria_right_bot {
+  position: absolute;
+  top: 400px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+    }
+  </style>

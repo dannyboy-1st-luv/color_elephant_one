@@ -14,9 +14,15 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     
-  <style>
+                                 <!-- Reference location to CSS file -->
+      <link rel = "stylesheet" type = "text/css" href = "application.css" />
+      
     
+    <style>
+    
+      
     .jumbotron{
+      position: relative;
       background-image: url("https://www.wallpaperflare.com/static/369/432/1022/line-blue-faded-background-wallpaper-preview.jpg");
       background-size: cover;
     }
@@ -24,10 +30,36 @@
     .icons{
       width: 800px;
       height: 900px;
-      font-weight: bolder;
+      
     }
     
-  </style>  
+    .tria_left {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+    }
+    
+    .tria_right_top {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+    }
+    
+    .tria_right_bot {
+  position: absolute;
+  top: 400px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+    }
+  
+    
+    </style>
+
     
   </head>
 
@@ -36,8 +68,19 @@
                                     <!-- SECTION OF PAGE WITH JUMBOTRON-->
   
   <div class="jumbotron container">
+    
+    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pink_triangle_up.svg/1200px-Pink_triangle_up.svg.png" class = "tria_right_bot">
+    
+  
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pink_triangle_up.svg/1200px-Pink_triangle_up.svg.png" class = "tria_right_top">
+  
+    <img src="https://www.freepngimg.com/thumb/triangle/28354-4-triangle-transparent-background-thumb.png" class = "tria_left">
+    
+    
+    
     <div class = "text-center" style = "color:white;">
-      <i class="glyphicon glyphicon-heart" style="font-size:20px;color:pink;"> ColorElephant </i>
+      <i class="glyphicon glyphicon-heart" style="font-size:20px;color:white;"> Dashboard </i>
       
       <h1>Lorem ipsum dolor sit amet, consectetur</h1>
       
@@ -56,7 +99,7 @@
   </br>
   
      <div>
-      <form class = "form-group form-horizontal"> 
+      <form class = "form-group "> 
        <div class = "container">
         <div class = "row">
           <div class = "col-sm-6">
@@ -65,8 +108,7 @@
           <div class = "col-sm-3">
         <select class = "form-control"> 
           <option value="dev"> I'm a Developer </option>  
-          <option value="soft"> I'm a Professor </option> 
-          <option value="stud"> I'm a Student </option> 
+          <option value="dev"> I'm a Developer </option> 
         </select>
           </div>
           <div class = "col-sm-3">
@@ -95,25 +137,25 @@
     <div class="icons container">
       <div class = "col-sm-4 text-center container">
         <img src = "https://cdn.iconscout.com/icon/free/png-256/writing-299-1163809.png" class="img-thumbnail" >
-        <h1> Editing </h1>
-        <p> Example text </p>
+        <h1> Lorem ipsum </h1>
+        <p> Lorem ipsum is simply dummy text of the printing and typsetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. </p>
       </div>
       <div class = "col-sm-4 text-center container">
         <img src = "https://cdn2.iconfinder.com/data/icons/design-process-2/680/design-lightning-bolt-512.png" class="img-thumbnail">
-          <h1> Lightning </h1>
-          <p> Example text </p>
+          <h1> Lorem ipsum </h1>
+          <p> Lorem ipsum is simply dummy text of the printing and typsetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.  </p>
       </div>
       <div class = "col-sm-4 text-center container">
          <img src = "https://www.smallmiddleschool.org/wp-content/uploads/2018/08/Red-Atom.png" class="img-thumbnail">
-            <h1> Science </h1>
-            <p> Example text </p>
+            <h1> Lorem ipsum </h1>
+            <p> Lorem ipsum is simply dummy text of the printing and typsetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. </p>
       </div>
     </div>
      
 
-<footer class = "footer-copyright text-center py-3"> 
-  <p style = "font-weight:bolder"> (c) Copyright Daniel Darku 2019  </p>
-  <p>Thanks for the opportunity to design this page </p>
+<footer class = "text-center py-3"> 
+  <p style = "font-weight:bolder"> Copyright &copy; Lorem 2019  </p>
+  <p> Lorem ipsum dolor sit amet, consectetur adipsiscing elit, sed do eiusmod tempor inciddiunt ut labore et dolore magna aliqua. Ut enim ad minim venaim, quis nostrud exerccitation ullamco </p>
 
 </footer>
 
@@ -122,3 +164,4 @@
   
   
 </html>
+
