@@ -6,14 +6,14 @@
     }
     
     .icons{
-      width: 800px;
-      height: 900px;
+      width: 450px;
+      height: 450px;
      
     }
     
     .tria_left {
   position: absolute;
-  top: 350px;
+  top: 250px;
   left: 0;
   width: 100px;
   height: 100px;
@@ -29,9 +29,20 @@
     
     .tria_right_bot {
   position: absolute;
-  top: 400px;
+  top: 320px;
   right: 0;
   width: 100px;
   height: 100px;
     }
+
+    .footer {
+   position: absolute;
+   left: 0;
+   margin-top: -100px; 
+   width: 100%;
+   background-color: white;
+   text-align: center;
+   font-size: 25;
+}
+
  
